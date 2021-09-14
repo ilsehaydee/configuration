@@ -4,3 +4,8 @@ aplicacion:
   version: 1.0
     pais: "mx"
       lenguaje: "es"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
